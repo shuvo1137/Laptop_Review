@@ -7,6 +7,7 @@ import ErrorPage from "./Components/ErorPage/ErrorPage";
 import Reviews from "./Components/Reviews/Reviews";
 import About from "./Components/About/About";
 import Dashboard from "./Components/Dashboard/Dashboard";
+import ReviewDetails from "./ReviewDetails.js/ReviewDetails";
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
         <Route path="*" element={<ErrorPage></ErrorPage>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/reviews" element={<Reviews></Reviews>}></Route>
+        <Route
+          path="/reviews/:id"
+          element={<ReviewDetails></ReviewDetails>}
+        ></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/dashboard" element={<Dashboard></Dashboard>}></Route>
       </Routes>
