@@ -6,15 +6,20 @@ const ReviewDetails = () => {
   const { id } = useParams();
   const [reviews, setReviews] = useReviews();
   const [review, setReview] = useState([]);
+  // useEffect(() => {
+  //   console.log("sssss");
+  // }, []);
 
-  const findReview = reviews.map((review) => {
-    if (review.id === id) {
-      console.log("paisi");
-      return findReview;
-    } else {
-      console.log("nai re vai");
-    }
-  });
+  useEffect(() => {
+    const findReview = reviews.find((review) => {
+      if (review.id === id) {
+        console.log("paisi");
+        return findReview;
+      } else {
+        console.log("nai re vai");
+      }
+    });
+  }, [id, reviews]);
 
   return (
     <div>
