@@ -11,7 +11,7 @@ const Reviews = () => {
       <h1>All {reviews.length} reviews</h1>
       <div className="reviews-container">
         {reviews.map((review) => (
-          <Review review={review}></Review>
+          <Review key={review.id} review={review}></Review>
         ))}
       </div>
     </div>

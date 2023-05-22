@@ -4,3 +4,8 @@
   border: 1px solid blueviolet;
   width: 400px;
 }
+.review-container img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
