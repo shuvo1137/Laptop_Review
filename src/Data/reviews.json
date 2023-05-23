@@ -1,0 +1,50 @@
+[
+  {
+    "id": "xx1",
+    "name": "alex boy",
+    "Commemts": " I highly recommend this laptop to anyone in need of a reliable and powerful machine.",
+    "product": "Hp Probook 450",
+    "price": 300,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRirzZJ8Oy-97vvxnkBVRwjxrqCDDW-6CzyYhPV0rUPq0JHqBW_OhzuCQa5YBc-1R5ijCU&usqp=CAU"
+  },
+  {
+    "id": "xx2",
+    "name": "alex boy 1",
+    "Commemts": "tk diye emon product keu kine na vai",
+    "product": "Hp Probook 460",
+    "price": 300,
+    "img": "https://media.istockphoto.com/photos/smiling-man-outdoors-in-the-city-picture-id1179420343?b=1&k=20&m=1179420343&s=612x612&w=0&h=c9Z3DyUg-YvgOQnL_ykTIgVTWXjF-GNo4FUQ7i5fyyk="
+  },
+  {
+    "id": "xx3",
+    "name": "alex boy 3",
+    "Commemts": "product hudai lafalafi kore",
+    "product": "Hp elitebook 450",
+    "price": 900,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiO6zNlfIoYukIQSYkOze3RXfZhPNjfcFafKHlw8TkX5FFSg5vE8h0yZk15alXX6kAOTw&usqp=CAU"
+  },
+  {
+    "id": "xx4",
+    "name": "kuddus boyati",
+    "Commemts": "product motamuti valoi vai",
+    "product": "Hp elitebook 670",
+    "price": 1300,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb6jnDdL9f7cJLSOQKMG1v1j9HvaR9HlwBmL_zUK45uJFdo9P8EIcAIMn5oZrvDSnpvMg&usqp=CAU"
+  },
+  {
+    "id": "xx5",
+    "name": "Aminul vai",
+    "Commemts": "product vai magna dileo niben naa",
+    "product": "Hp Pavillion 450",
+    "price": 1500,
+    "img": "https://image.shutterstock.com/image-photo/young-handsome-man-beard-wearing-260nw-1768126784.jpg"
+  },
+  {
+    "id": "xx6",
+    "name": "joynal abedin",
+    "Commemts": "Amar dekhe shera product,chokh khuilla kinte paren",
+    "product": "Hp Envy 2",
+    "price": 3300,
+    "img": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWVufGVufDB8fDB8fHww&w=1000&q=80"
+  }
+]

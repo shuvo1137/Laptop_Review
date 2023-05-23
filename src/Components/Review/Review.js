@@ -10,10 +10,13 @@ const Review = ({ review }) => {
     //   <h4>{name}</h4>
     // </div>
     <Link to={`/reviews/${id}`} className="review-container">
-      <h4>{product}</h4>
-      <h5>{Commemts}</h5>
-      <p>{name}</p>
-      <img src={img} alt="" />
+      <div class="review">
+        <div class="review-content">
+          <img src={img} alt="Reviewer 2"></img>
+          <h3>{name}</h3>
+          <p>{`"${Commemts}"`}</p>
+        </div>
+      </div>
     </Link>
   );
 };
