@@ -1,8 +1,39 @@
-.Nav-container a {
-  padding: 0 20px;
-  text-decoration: none;
-  color: black;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
-.Nav-container a:hover {
-  color: chocolate;
+
+.logo {
+  font-weight: bold;
+}
+
+.search input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.navigation-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-links li {
+  margin: 0 10px;
+}
+
+.navigation-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.navigation-links li a:hover {
+  color: #666;
 }

@@ -16,15 +16,9 @@ const Home = () => {
             <p>
               Discover a world of possibilities with our innovative products.
             </p>
-            <a href="#" class="btn">
+            <a href="" className="btn">
               Learn More
             </a>
-          </div>
-          <div class="right-side">
-            <img
-              src="https://thumbs.dreamstime.com/b/laptop-computer-travel-37983668.jpg"
-              alt="Hero Image"
-            ></img>
           </div>
         </div>
       </section>
